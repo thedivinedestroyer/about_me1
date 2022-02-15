@@ -1,0 +1,36 @@
+@charset "UTF-8";
+header{
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(header.png);
+}
+body {
+    background-image: url(bokeh.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+aside  {
+    width: 150px;
+    height: 600px;
+    float: left;
+}
+main{
+    width: 768px;
+    height: 600px;
+    float: left;
+	
+}
+footer{
+	width:768px; 
+	height:50px;
+	background-color:orange;
+	float:none;
+	clear:both;
+}
+#container {
+    width: 768px;
+    heigh: auto;
+    background-color:white;
+    margin:auto;
+}
